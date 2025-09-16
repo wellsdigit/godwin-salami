@@ -27,7 +27,11 @@ import {
   cloud,
   previrPr,
   dream,
-  straitgatePr
+  straitgatePr,
+  moviebox,
+  helpmeout,
+  gamemode,
+  pubg
 } from "../assets";
 
 export const navLinks = [
@@ -267,6 +271,94 @@ const projects = [
     image: straitgatePr,
     source_code_link: "https://github.com/wellsdigit/STRAITGATE",
     live_link: "https://straitgate.vercel.app/"
+  },
+  {
+    name: "Filmfind",
+    description:
+      "Find top and favorite movies, actors, TV shows and more.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: moviebox,
+    source_code_link: "https://github.com/wellsdigit/hngxtasktwo-filmfind",
+    live_link: "https://hngxtasktwo-filmfind.vercel.app/"
+  },
+  {
+    name: "HelpMeOut",
+    description:
+      "HelpMeOut is a web application merged with a chrome extension that allows users to record screen activity and share the recorded video with others for assistance.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: helpmeout,
+    source_code_link: "https://github.com/wellsdigit/helpmeout-hngx",
+    live_link: "https://helpmeout-hngx-wheat.vercel.app/"
+  },
+  {
+    name: "Gamesmode",
+    description:
+      "User Interface development for game series and most designed to showcase games in a more interactive way.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gamemode,
+    source_code_link: "https://github.com/wellsdigit/gamesmode",
+    live_link: "https://wellsdigit.github.io/gamesmode/"
+  },
+  {
+    name: "Gamesmode",
+    description:
+      "Develped a animated gaming landing page with pure HTML, CSS and Javascript.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pubg,
+    source_code_link: "https://github.com/wellsdigit/pubg-page",
+    live_link: "https://wellsdigit.github.io/pubg-page/"
   },
 ];
 
