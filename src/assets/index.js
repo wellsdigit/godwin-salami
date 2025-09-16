@@ -3,6 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import weburl from "./web-url.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -29,12 +30,24 @@ import previr from "./company/previr.png"
 import probity from "./company/probity.jpg"
 import hng from "./company/hng.jpg"
 import straitgate from "./company/straitgate.jpg"
+import cloud from "./company/cloud.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import dream from "./projects/dream.png";
+import gamemode from "./projects/gamemode.png";
+import helpmeout from "./projects/helpmeout.png";
+import moviebox from "./projects/moviebox.png";
+import previrPr from "./projects/previr.png";
+import pubg from "./projects/pubg.png";
+import straitgatePr from "./projects/straitgate.png";
 
 export {
+  dream,
+  gamemode,
+  helpmeout,
+  moviebox,
+  previrPr,
+  pubg,
+  straitgatePr,
   logo,
   backend,
   creator,
@@ -60,11 +73,10 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
   previr,
   probity,
   hng,
   straitgate,
+  cloud,
+  weburl
 };

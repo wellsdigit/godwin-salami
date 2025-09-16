@@ -19,14 +19,15 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   previr,
   probity,
   hng,
-  straitgate
+  straitgate,
+  cloud,
+  previrPr,
+  dream,
+  straitgatePr
 } from "../assets";
 
 export const navLinks = [
@@ -92,18 +93,18 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -112,32 +113,45 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
+    title: "React/NextJs Developer",
+    company_name: "HNGx Internship",
+    icon: hng,
+    iconBg: "#00aeff",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Build and maintain web applications with React.js, NextJs and related technologies.",
+      "Collaborating with functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Translated UI and UX designs into functional code in close collaboration with designers."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Frontend Developer",
+    company_name: "Cloudcraves",
+    icon: cloud,
+    iconBg: "#fff",
+    date: "Dec 2024 - Mar 2025",
+    points: [
+      "Developed and maintained responsive web interfaces that provide a smooth user experience.",
+      "Translated UI and UX designs into functional code in close collaboration with designers.",
+      "Enhanced site performance and functionality using modern front-end technologies.",
+      "Ensured consistency, accessibility, and usability across different devices and browsers.",
+    ],
+  },
+  {
+    title: "Frontend Web Developer",
+    company_name: "Probity Hub",
+    icon: probity,
+    iconBg: "#fff",
+    date: "Mar 2022 - Jul 2025",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -145,32 +159,19 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -202,58 +203,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Previr Conserv Limited",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Built and manage Previr Conserve Limited’s real estate website, providing seamless property listings and inquiries, powered by a robust cloud infrastructure.",
     tags: [
       {
-        name: "react",
+        name: "bootstrap",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -261,8 +220,53 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: previrPr,
+    source_code_link: "https://github.com/wellsdigit/PREVIR",
+    live_link: "https://www.previrconserv.com"
+  },
+  {
+    name: "Dream Affair",
+    description:
+      "Web application that allow users to book and manage wedding event, including venue selection, catering, and entertainment, with a user-friendly interface and secure payment options.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dream,
+    source_code_link: "https://github.com/Dream-Affairs/Dream-Affairs-Frontend",
+    live_link: "https://dream-affairs-frontend-dev.vercel.app/"
+  },
+  {
+    name: "Straitgate",
+    description:
+      "Straitgate College is a school website I built to present the institution’s profile, academics, and admissions in a clear and accessible way.",
+    tags: [
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: straitgatePr,
+    source_code_link: "https://github.com/wellsdigit/STRAITGATE",
+    live_link: "https://straitgate.vercel.app/"
   },
 ];
 
