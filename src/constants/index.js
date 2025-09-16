@@ -1,6 +1,4 @@
 import {
-  mobile,
-  backend,
   creator,
   web,
   javascript,

@@ -24,7 +24,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="block lg:hidden absolute w-full h-full top-80 ">
+      <div className="block lg:hidden absolute w-full h-full top-72">
         <img src={mobileHero} alt="" />
       </div>
       <div className="hidden lg:flex absolute w-full h-full">

@@ -19,7 +19,11 @@ const ProjectCard = ({
   live_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div 
+    initial="hidden"
+    whileInView="show"
+    viewport={{ once: true, amount: 0.2 }}
+    variants={fadeIn("up", "spring", index * 0.2, 0.6)}>
       <Tilt
         options={{
           max: 45,
@@ -79,7 +83,10 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={fadeIn("", "", 0.1, 1)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.2 }}>
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
@@ -87,6 +94,9 @@ const Works = () => {
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.2 }}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
         The following projects highlight my skills and experience with real-world examples. Each project includes a short description with links to the code and live demo. They show my ability to solve problems, work with different technologies, and manage projects effectively.
