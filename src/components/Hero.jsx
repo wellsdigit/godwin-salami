@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import { mobileHero } from "../assets";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
@@ -24,8 +24,12 @@ const Hero = () => {
           </p>
         </div>
       </div>
-
-      <ComputersCanvas />
+      <div className="block lg:hidden absolute w-full h-full top-80 ">
+        <img src={mobileHero} alt="" />
+      </div>
+      <div className="hidden lg:flex absolute w-full h-full">
+        <ComputersCanvas />
+      </div>
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

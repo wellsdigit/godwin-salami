@@ -39,6 +39,7 @@ import moviebox from "./projects/moviebox.png";
 import previrPr from "./projects/previr.png";
 import pubg from "./projects/pubg.png";
 import straitgatePr from "./projects/straitgate.png";
+import mobileHero from "./mobile/hero.png";
 
 export {
   dream,
@@ -78,5 +79,6 @@ export {
   hng,
   straitgate,
   cloud,
-  weburl
+  weburl,
+  mobileHero
 };
